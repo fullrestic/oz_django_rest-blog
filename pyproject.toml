@@ -1,0 +1,16 @@
+[project]
+name = "django-rest-blog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "django==4.2.23",
+    "django-extensions>=4.1",
+    "djangorestframework==3.16",
+    "djangorestframework-simplejwt>=5.5.1",
+    "drf-yasg>=1.21.10",
+    "ipython>=9.4.0",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.1",
+]
