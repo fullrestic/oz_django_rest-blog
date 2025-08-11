@@ -3,7 +3,10 @@ from . local import *
 
 DEBUG = False
 
-ALLOWED_HOSTS = ['fullrestic.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    "fullrestic.pythonanywhere.com",
+    "www.fullrestic.pythonanywhere.com",
+]
 
 DATABASES = {
     'default': {
